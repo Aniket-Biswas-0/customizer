@@ -14,7 +14,7 @@ const Home = () => {
   const snap = useSnapshot(state);
 
   const redirectToWebsite = () => {
-    window.location.href = 'http://localhost:3000';
+    window.location.href = 'https://crown-clothing-aams.netlify.app/';
   };
 
   return (
