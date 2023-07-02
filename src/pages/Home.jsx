@@ -22,12 +22,14 @@ const Home = () => {
       {snap.intro && (
         <motion.section className="home" {...slideAnimation('left')}>
           <motion.header {...slideAnimation("down")}>
+            <dev className="flex items-center" onClick={redirectToWebsite} style={{ cursor: 'pointer' }}>
             <img 
               src='./crown.svg'
               alt="logo"
-              className="w-25 h-25 object-contain"
-              onClick={redirectToWebsite}
+              className="w-25 h-25 object-contain cursor-pointer"
             />
+            <span>Crown Clothing</span>
+            </dev>
           </motion.header>
 
           <motion.div className="home-content" {...headContainerAnimation}>

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;1,900&display=swap");
 @import url("https://rsms.me/inter/inter.css");
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -75,6 +76,13 @@ input[type="file"] {
   z-index: -1;
   position: absolute;
   opacity: 0;
+}
+
+span {
+ font-family: "Carter One";
+ font-size: 2rem;
+ margin-left: 1rem;
+ margin-top: 1rem;
 }
 
 .sketch-picker {
